@@ -48,15 +48,15 @@ const Forecast = ({ data }) => {
                                     <label>{item.clouds.all}</label>
                                 </div>
                                 <div className='daily-details-grid-item'>
-                                    <label>Wind speed :</label>
+                                    <label>Wind speed</label>
                                     <label>{item.wind.speed} m/s</label>
                                 </div>
                                 <div className='daily-details-grid-item'>
-                                    <label>Sea level :</label>
+                                    <label>Sea level</label>
                                     <label>{item.main.sea_level}</label>
                                 </div>
                                 <div className='daily-details-grid-item'>
-                                    <label>Feels like :</label>
+                                    <label>Feels like</label>
                                     <label>{Math.round(item.main.feels_like)}°C</label>
                                 </div>
                             </div>

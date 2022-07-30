@@ -3,8 +3,7 @@ body {
   font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('https://jooinn.com/images/clear-blue-sky-1.png');
-  background-size: cover;
+  background-color: #d8d8d8;
 }
 
 code {
